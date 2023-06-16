@@ -1,6 +1,7 @@
 <h1>Bank System</h1>
 <h1></h1>
 <br>
+![imagen](https://github.com/Amhernandez5508/Banco/assets/121590490/549c85c9-ab76-4edc-9a03-67e91ec5d0ad)
 <h2>Tech & Skills:</h2>
 <ol>
   <li>Maven</li>

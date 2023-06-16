@@ -1,5 +1,6 @@
 <h1>Bank System</h1>
-
+<h1></h1>
+<br>
 <h2>Tech & Skills:</h2>
 <ol>
   <li>Maven</li>

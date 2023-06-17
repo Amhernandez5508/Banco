@@ -3,9 +3,7 @@
 <br>
 
 
-![1891012_blue_cercle_hamburger_list_mavigation_icon](https://github.com/Amhernandez5508/Banco/assets/121590490/9863bb70-efe8-4794-9509-0d5069ccc074)
-
-<h2>Tech & Skills:</h2>
+![1891012_blue_cercle_hamburger_list_mavigation_icon](https://github.com/Amhernandez5508/Banco/assets/121590490/9863bb70-efe8-4794-9509-0d5069ccc074)<h2>Tech & Skills:</h2>
 <ol>
   <li>Maven</li>
   <li>JAVA JSE</li>

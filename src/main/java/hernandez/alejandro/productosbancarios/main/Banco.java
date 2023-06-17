@@ -29,7 +29,7 @@ public class Banco {
 		Producto[] listaProductos3 = { new CuentaCorriente(043, 123), new CuentaCorriente(062, 304), new CuentaCorriente(300, 421), new TarjetaCredito(620, 650) };
 		Producto[] listaProductos4 = { new CajaAhorro(100, 002), new TarjetaCredito(620, 430), new CuentaCorriente(300, 241), new CuentaCorriente(206, 560) };
 		
-		Cliente cliente1 = new Cliente("DNI", "36402915", "Alejandro Hernandez", "30-09-1991", listaProductos1);
+		Cliente cliente1 = new Cliente("DNI", "24855612", "Alejandro Hernandez", "30-09-1991", listaProductos1);
 		Cliente cliente2 = new Cliente("DU", "41235663", "Cosme Fulanito", "25-03-1976", listaProductos2);
 		Cliente cliente3 = new Cliente("PA", "456581", "Giusepe Mausen", "02-12-1987", listaProductos3);
 		Cliente cliente4 = new Cliente("DNI", "42011548", "Pepe Peposo", "15-07-2002", listaProductos4);

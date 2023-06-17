@@ -36,7 +36,8 @@
 <br>
 <p>Admin Portal only have a one function: view the error log stored in DataBase.</p>
 
-![imagen](https://github.com/Amhernandez5508/Banco/assets/121590490/7de81211-5e6c-4caf-bccf-b1c5aa1a4b4b)
+![imagen](https://github.com/Amhernandez5508/Banco/assets/121590490/b389111c-e690-4675-bfbe-2f5a9088759f)
+
 
 
 

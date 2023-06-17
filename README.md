@@ -23,11 +23,11 @@
 <p>In the case of the User Portal, the program gives the possibility of requesting different products. Some of those products are not available and in case the user selects them an own Exception is triggered and a record is stored in the SQL database using the DAO pattern.</p>
 <p>Users can also view the requested products and search for other customers <i>(this bank is an insecure institution, we do not recommend it ;))</i></p>
 
-<h3>User Portal:</h3>
+<h>User Portal:</h4>
 
 ![imagen](https://github.com/Amhernandez5508/Banco/assets/121590490/a5437b08-dcad-48a4-b621-ce5d17b1865d)
 <h1></h1>
-<h3>Requesting products:</h3>
+<h4>Requesting products:</h4>
 <i>(Products are ENUM)</i>
 
 ![imagen](https://github.com/Amhernandez5508/Banco/assets/121590490/dc5c28c1-6a81-4a50-b56d-0b307d243820)
@@ -40,7 +40,12 @@
 
 
 
-
+<h2>Code & Organization</h2>
 
 ![imagen](https://github.com/Amhernandez5508/Banco/assets/121590490/ac8994c9-edc1-41fc-93ca-34fa6ae4d1b6)
+
+<h4>DAO implement (DTO):</h4>
+
+![imagen](https://github.com/Amhernandez5508/Banco/assets/121590490/feb45f81-4f1b-49e7-8403-5796e45be4d7)
+
 

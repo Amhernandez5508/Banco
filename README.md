@@ -2,7 +2,9 @@
 <h1></h1>
 <br>
 
-![imagen](https://github.com/Amhernandez5508/Banco/assets/121590490/fa8ce3ca-ba17-4024-8cab-82cd8798bbf1)
+
+![imagen](https://github.com/Amhernandez5508/Banco/assets/121590490/c12feca4-cb7c-46cb-b37e-90d9c9e0fe16)
+
 <h2>Tech & Skills:</h2>
 <ol>
   <li>Maven</li>

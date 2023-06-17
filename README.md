@@ -54,3 +54,13 @@
 
 
 
+<h2>Database</h2>
+
+![imagen](https://github.com/Amhernandez5508/Bank-System/assets/121590490/1be38e77-d6d8-4fe9-9671-8f5ee2d0c0ff)
+
+![imagen](https://github.com/Amhernandez5508/Bank-System/assets/121590490/12accaa2-6d8d-4939-97ed-dced89e099c7)
+
+
+
+
+

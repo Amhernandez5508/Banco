@@ -48,4 +48,9 @@
 
 ![imagen](https://github.com/Amhernandez5508/Banco/assets/121590490/feb45f81-4f1b-49e7-8403-5796e45be4d7)
 
+<h4>DataBase connection interface:</h4>
+
+![imagen](https://github.com/Amhernandez5508/Banco/assets/121590490/c6bada65-7f05-4b66-ae20-2e541e070cd0)
+
+
 

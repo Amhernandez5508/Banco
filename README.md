@@ -21,7 +21,7 @@
 <p>This is a simulated banking system, which allows users to operate as normal users or admin users (no credential validation system or similar is applied in this project).</p>
 <br>
 <p>In the case of the User Portal, the program gives the possibility of requesting different products. Some of those products are not available and in case the user selects them an own Exception is triggered and a record is stored in the SQL database using the DAO pattern.</p>
-<p>Users can also view the requested products and search for other customers <i>(this bank is an insecure institution, we do not recommend it)</i></p>
+<p>Users can also view the requested products and search for other customers <i>(this bank is an insecure institution, we do not recommend it ;))</i></p>
 
 <h6>User Portal:</h6>
 

@@ -26,7 +26,7 @@
 <h3>User Portal:</h3>
 
 ![imagen](https://github.com/Amhernandez5508/Banco/assets/121590490/a5437b08-dcad-48a4-b621-ce5d17b1865d)
-
+<h1></h1>
 <h3>Requesting products:</h3>
 <i>(Products are ENUM)</i>
 

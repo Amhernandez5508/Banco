@@ -3,6 +3,7 @@ package hernandez.alejandro.productosbancarios.dao.impl;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.time.LocalDateTime;
 
 import hernandez.alejandro.productosbancarios.dao.DAO;
 import hernandez.alejandro.productosbancarios.datasource.ConnectionDB;
@@ -49,9 +50,32 @@ public class LogDTO implements DAO<Log, Integer>{
 	}
 
 	@Override
-	public void select(Integer pID) {
+	public Log selectLastRegistry() {
 		// TODO Auto-generated method stub
-		
+		Log log = null;
+		try {
+			String sqlQueryTemp = "SELECT * FROM log WHERE ID = (SELECT MAX(ID) FROM log)";
+			
+			PreparedStatement sqlQueryPrep = ConnectionDB.connect().prepareStatement(sqlQueryTemp);
+			
+			ResultSet replySQL = sqlQueryPrep.executeQuery();
+				
+			while (replySQL.next()) {
+				int auxID = replySQL.getInt("ID");
+				LocalDateTime auxFecha = (LocalDateTime) replySQL.getObject("Fecha");
+				String auxClase = replySQL.getString("Clase");
+				String auxProducto = replySQL.getString("Producto");
+			    String auxDescripcion = replySQL.getString("Descripcion");
+			    
+			    log = new Log(auxID, auxFecha, auxClase, auxProducto, auxDescripcion);
+			}
+		    return log;
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			return log;
+		}
 	}
 
 	

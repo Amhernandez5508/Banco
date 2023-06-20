@@ -9,6 +9,7 @@ import java.util.HashMap;
 
 import hernandez.alejandro.productosbancarios.entity.*;
 import hernandez.alejandro.productosbancarios.exceptions.ExcepcionProducto;
+import hernandez.alejandro.productosbancarios.logging.LogWriter;
 import hernandez.alejandro.productosbancarios.util.EnumProductos;
 import hernandez.alejandro.productosbancarios.util.OrdenProductos;
 import hernandez.alejandro.productosbancarios.dao.impl.*;
@@ -29,7 +30,7 @@ public class Banco {
 		Producto[] listaProductos3 = { new CuentaCorriente(043, 123), new CuentaCorriente(062, 304), new CuentaCorriente(300, 421), new TarjetaCredito(620, 650) };
 		Producto[] listaProductos4 = { new CajaAhorro(100, 002), new TarjetaCredito(620, 430), new CuentaCorriente(300, 241), new CuentaCorriente(206, 560) };
 		
-		Cliente cliente1 = new Cliente("DNI", "24855612", "Alejandro Hernandez", "30-09-1991", listaProductos1);
+		Cliente cliente1 = new Cliente("DNI", "36402915", "Alejandro Hernandez", "30-09-1991", listaProductos1);
 		Cliente cliente2 = new Cliente("DU", "41235663", "Cosme Fulanito", "25-03-1976", listaProductos2);
 		Cliente cliente3 = new Cliente("PA", "456581", "Giusepe Mausen", "02-12-1987", listaProductos3);
 		Cliente cliente4 = new Cliente("DNI", "42011548", "Pepe Peposo", "15-07-2002", listaProductos4);
@@ -175,6 +176,7 @@ public class Banco {
 									} catch (ExcepcionProducto e) {
 										if (e.getCodigo() == 1) {
 											Log log = null;
+											Log log2 = null;
 											LogDTO lDTO = new LogDTO();
 										
 											if (seleccion == 4) {
@@ -185,6 +187,8 @@ public class Banco {
 											}
 											
 											lDTO.insert(log);
+											log2 = lDTO.selectLastRegistry();
+											LogWriter.write(log2);
 										}
 										
 										System.out.print(String.format("\n%s."

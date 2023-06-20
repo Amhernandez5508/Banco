@@ -1,0 +1,2 @@
+2023-06-20T01:10:21 java.lang.Class: Producto no disponible - Registrado en la tabla "log" con ID [25]
+2023-06-20T01:10:22 java.lang.Class: Producto no disponible - Registrado en la tabla "log" con ID [26]

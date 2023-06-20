@@ -11,13 +11,29 @@ public class Log {
 	private String producto;
 	private String descripcion;
 	
+	
+	// ----- Constructs -----
 	public Log(String clase, String producto, String descripcion) {
 		this.fecha = LocalDateTime.now();
 		this.clase = clase;
 		this.producto = producto;
 		this.descripcion = descripcion;
 	}
+	
+	public Log(int id, LocalDateTime fecha, String clase, String producto, String descripcion) {
+		this.id = id;
+		this.fecha = fecha;
+		this.clase = clase;
+		this.producto = producto;
+		this.descripcion = descripcion;
+	}
 
+	
+	// ----- Getter & Setter -----
+	public int getID() {
+		return id;
+	}
+	
 	public LocalDateTime getFecha() {
 		return fecha;
 	}

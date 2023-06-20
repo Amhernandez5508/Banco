@@ -14,6 +14,7 @@
   <li>MySQL</li>
   <li>Data Access Object (DAO)</li>
   <li>Own Exceptions</li>
+  <li>JAVA I/O</li>
 </ol>
 
 <br>

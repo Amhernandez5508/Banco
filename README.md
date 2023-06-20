@@ -35,7 +35,7 @@
 <h1></h1>
 
 <br>
-<p>Admin Portal only have a one function: view the error log stored in DataBase.</p>
+<p>Admin Portal has only one function: view the error log stored in the DataBase.</p>
 
 ![imagen](https://github.com/Amhernandez5508/Banco/assets/121590490/b389111c-e690-4675-bfbe-2f5a9088759f)
 
@@ -53,6 +53,13 @@
 
 ![imagen](https://github.com/Amhernandez5508/Banco/assets/121590490/c6bada65-7f05-4b66-ae20-2e541e070cd0)
 
+<h4>JAVA I/O</h4>
+<p>It is used to handle data flow and write a record in the "log.txt" file in case the user selects an unavailable product</p>
+
+![imagen](https://github.com/Amhernandez5508/Bank-System/assets/121590490/5e3c1dd6-299a-4dff-a7a8-7f4fb7ef0d73)
+
+![imagen](https://github.com/Amhernandez5508/Bank-System/assets/121590490/5e167d1d-2898-4e15-9f5a-347fcd6db10c)
+
 
 
 <h2>Database</h2>
@@ -60,8 +67,3 @@
 ![imagen](https://github.com/Amhernandez5508/Bank-System/assets/121590490/b22ef907-12ab-4a83-9443-bf9dc4d9f6e0)
 
 ![imagen](https://github.com/Amhernandez5508/Bank-System/assets/121590490/12accaa2-6d8d-4939-97ed-dced89e099c7)
-
-
-
-
-

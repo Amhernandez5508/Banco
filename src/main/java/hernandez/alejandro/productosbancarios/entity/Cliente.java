@@ -1,9 +1,7 @@
 package hernandez.alejandro.productosbancarios.entity;
 
-import java.text.DateFormat;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.Arrays;
 
 public class Cliente {
 	Documento doc;

@@ -1,7 +1,5 @@
 package hernandez.alejandro.productosbancarios.entity;
 
-import hernandez.alejandro.productosbancarios.exceptions.ExcepcionProducto;
-
 public class CajaAhorro extends Producto{
 
 	public CajaAhorro(int banco, int sucursal){

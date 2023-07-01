@@ -1,6 +1,7 @@
 package hernandez.alejandro.productosbancarios.exceptions;
 
 public class ExcepcionFechaErronea extends Exception {
+	private static final long serialVersionUID = 1L;
 	private int codigo;
 	
 	public ExcepcionFechaErronea(int codigo) {

@@ -1,6 +1,7 @@
 package hernandez.alejandro.productosbancarios.exceptions;
 
 public class ExcepcionProducto extends Exception {
+	private static final long serialVersionUID = 1L;
 	int codigo;
 	
 	public ExcepcionProducto(int codigo) {

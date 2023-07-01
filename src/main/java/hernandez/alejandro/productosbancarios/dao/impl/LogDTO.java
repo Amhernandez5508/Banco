@@ -51,7 +51,6 @@ public class LogDTO implements DAO<Log, Integer>{
 
 	@Override
 	public Log selectLastRegistry() {
-		// TODO Auto-generated method stub
 		Log log = null;
 		try {
 			String sqlQueryTemp = "SELECT * FROM log WHERE ID = (SELECT MAX(ID) FROM log)";
@@ -72,7 +71,6 @@ public class LogDTO implements DAO<Log, Integer>{
 		    return log;
 			
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 			return log;
 		}

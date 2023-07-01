@@ -254,7 +254,6 @@ public class Banco {
 										producto.imprimirNumeroProducto();
 									}
 								} catch (Exception e) {
-									// TODO Auto-generated catch block
 									e.printStackTrace();
 								}
 							} else {
@@ -283,7 +282,7 @@ public class Banco {
 									+ "---------------------------");
 				break; //Finaliza el Portal de Usuario.
 		}
-		
+		input.close();
 		System.out.println("\n\nFinalizando programa...");
 		System.out.println("Programa finalizado.");
 	}
